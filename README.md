@@ -1,5 +1,5 @@
 # Data Science Homework - Homework assignment for Data Scientist candidate
-### Objective: Develop a predictive model based on the provided Order and Online customer behavior data. The analysis can be done in R or Python and should be presented in an R-Studio Notebook or Jupyter Notebook. The assignment should produce a multi-class classification supervised learning model. It is up to you to design the analysis and provide a rationale of chosen approach. Feel free to use any open source tools or functions (out of the box or your own) that will facilitate the analysis. In your workflow, please touch on each of the following areas:							
+### Objective: Develop a predictive model based on the provided Order and Online customer behavior data (data.zip). The analysis can be done in R or Python and should be presented in an R-Studio Notebook or Jupyter Notebook. The assignment should produce a multi-class classification supervised learning model. It is up to you to design the analysis and provide a rationale of chosen approach. Feel free to use any open source tools or functions (out of the box or your own) that will facilitate the analysis. In your workflow, please touch on each of the following areas:							
 
 1) Exploration and understanding of the data sets									
 2) Feature engineering									
