@@ -1,5 +1,5 @@
 # Data Science Homework - Homework assignment for Data Scientist candidate
-### Objective: Develop a predictive model based on the provided Order and Online customer behavior data (data.zip). The analysis can be done in R or Python and should be presented in an R-Studio Notebook or Jupyter Notebook. The assignment should produce a multi-class classification supervised learning model. It is up to you to design the analysis and provide a rationale of chosen approach. Feel free to use any open source tools or functions (out of the box or your own) that will facilitate the analysis. In your workflow, please touch on each of the following areas:							
+### Objective: Develop a predictive model based on the provided Order and Online customer behavior data (data.zip). The analysis can be done in R or Python and should be presented in an R-Studio Notebook or Jupyter Notebook. The assignment should produce a multi-class classification supervised learning model to predict product category (prodcat1) a customer is likely to order. Use your expertise to design the analysis and provide a rationale of chosen approach. Once completed, please upload your assigment to your personal github repo and share the link. In your workflow, please touch on each of the following areas:							
 
 1) Exploration and understanding of the data sets									
 2) Feature engineering									
@@ -9,8 +9,8 @@
 6) Model evaluation
 7) Summary of results: 2-3 paragraphs textual summary
 									
-It is not necessary to produce a highly predictive model, but, rather, to illustrate your understanding and practical knowledge of the model building process. 									
-
+Note: It is not necessary to produce a highly predictive model, but, rather, to illustrate your understanding and practical knowledge of the model building process. There is no right answer, so you can go with certain number of assumptions about the data as you see fit. However, in case you’re unable to proceed without the needed clarification, please feel free to reach out.								
+Bonus: If you can work in customer segmenation as part of your EDA
 
 ### Data Sets
 
@@ -34,6 +34,6 @@ Table: online.csv	954774 obs. of  7 variables:
 |visitor| int  140970 14501 419353 90673 191542 419268 14938 419163 419163 14464 ...	|Online visitor key|
 |dt| POSIXct, format: "2016-09-16 05:03:23"  ...	|Online activity date|
 |custno| int  3840 70400 21248 39168 47616 47616 47872 49920 49920 54784 ...	|Customer number|
-|category| int  1 1 1 1 1 1 1 1 1 1 ...	|Online browsing category|
+|category| int  1 1 1 1 1 1 1 1 1 1 ...	|Online browsing category (prodcat1 from order.csv)|
 |event1  | int  NA NA NA NA NA NA NA NA NA NA ...	|Online event 1|
 |event2  | int  1 1 1 1 1 1 1 1 1 1 ...	|Online event 2|
